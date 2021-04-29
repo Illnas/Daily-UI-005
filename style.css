@@ -1,0 +1,45 @@
+
+
+
+
+
+main {
+    height: 100vh;
+    background-color: rgb(175, 172, 172);
+}
+
+
+section {
+    border: 3px solid rgb(82, 81, 81);
+    border-radius: 8px;
+}
+
+p {
+    font-size: 50px;
+    margin: 30px;
+}
+
+.animated-text {
+    animation: textColour 7s infinite;
+}
+
+
+.animated-background {
+    background-color: rgb(206, 205, 205);
+    animation: blink 5s infinite;
+
+}
+
+@keyframes blink {
+     50% { background-color: #fff; }  
+}
+
+
+@keyframes textColour {
+    0% {color: rgb(186, 223, 99);}
+    25% {color: rgb(102, 165, 83)}
+    50% {color:rgb(61, 163, 95)}
+    75% {color: rgb(75, 194, 39)}
+    100% {color: rgb(83, 247, 7);}
+}
+
